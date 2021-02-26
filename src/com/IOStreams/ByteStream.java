@@ -1,4 +1,4 @@
-package com.kumar;
+package com.IOStreams;
 import java.io.*;
 
 public class ByteStream
