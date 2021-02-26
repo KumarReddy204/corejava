@@ -9,9 +9,11 @@ public class MainClass
 			@Override
 			void m1() 
 			{
-				System.out.print("Create Object using Anonymous Inner Class");
+				System.out.println("Create Object using Anonymous Inner Class");
 			}
 		};
 		oAbstract.m1();
+		System.out.println(oAbstract.i);
+		System.out.println(Abstract.strName);
 	}
 }
