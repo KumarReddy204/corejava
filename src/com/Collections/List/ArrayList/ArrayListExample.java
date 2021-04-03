@@ -21,7 +21,7 @@ public class ArrayListExample
 
 /*
 
-Array Internal Work flow
+ArrayList Internal Work flow
 
 1.When we Create array object(Line-11) and the jvm create array memory of 10 blocks(default size).
 2.If we add some values to the arraylist.It will store the value in 0 Index.
