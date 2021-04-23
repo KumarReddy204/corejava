@@ -45,14 +45,12 @@ public class LargestSumofContigousSubArray
 	    }
 	}
 	System.out.println("Largest Sum of SubArray is "+nMaxNumber);
-	System.out.print("SubArray is Starting Index is :"+nStart);
-	System.out.print("SubArray is Ending Index is :"+nEnd);
-	System.out.print("SubArray is : [");
-	for(int l = arrNumbers.length - nStart; l >= arrNumbers.length - nEnd; l++)
-	{
-	    System.out.print(+arrNumbers[l]+" ");
-	}
-	System.out.println("]");
+	System.out.println("SubArray is Starting Index is :"+nStart);
+	System.out.println("SubArray is Ending Index is :"+nEnd);
+	
+	int[] arrSubArray = Arrays.copyOfRange(arrNumbers, nStart, nEnd);
+	
+	System.out.print("SubArray is : "+ Arrays.toString(arrSubArray));
 
     }
 
