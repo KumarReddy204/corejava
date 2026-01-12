@@ -1,4 +1,4 @@
-package org.kumar;
+package com.Java8Features;
 
 public class StreamAPIOnStrings {
 

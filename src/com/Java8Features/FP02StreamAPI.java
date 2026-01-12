@@ -1,4 +1,4 @@
-package org.kumar;
+package com.Java8Features;
 
 import java.util.*;
 import java.util.stream.Collectors;
