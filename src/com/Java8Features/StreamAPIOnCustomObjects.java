@@ -188,13 +188,7 @@ public class StreamAPIOnCustomObjects {
         );
     */
 
+    public static void main(String[] args){
 
-
-
-
-
-
-
-
-
+    }
 }

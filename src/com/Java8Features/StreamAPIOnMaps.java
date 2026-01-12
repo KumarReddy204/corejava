@@ -43,6 +43,11 @@ public class StreamAPIOnMaps {
     2. Group strings by first character using Streams List<String> words = List.of("apple", "ant", "ball", "bat", "cat");
     3. Create a Map from a list where duplicate keys exist using Streams List<String> words = List.of("A", "B", "A", "C");
     4. Convert a Map to a List of custom objects using Streams Map<String, Integer> data = Map.of("X", 100, "Y", 200);
-    5. Filter a Map to keep only entries with value > 50 using Streams Map<String, Integer> scores = Map.of("Math", 40, "Science", 75, "English", 60);*/
+    5. Filter a Map to keep only entries with value > 50 using Streams Map<String, Integer> scores = Map.of("Math", 40, "Science", 75, "English", 60);
+    */
+
+    public static void main(String[] args){
+
+    }
 
 }
